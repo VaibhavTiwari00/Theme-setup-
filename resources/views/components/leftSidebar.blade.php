@@ -44,6 +44,9 @@
                             </a>
                             <div class="collapse" id="sidebarPages">
                                 <ul class="side-nav-second-level">
+                                     <li>
+                                        <a href="/about">About Page</a>
+                                    </li>
                                     <li>
                                         <a href="pages-starter.html">Starter Page</a>
                                     </li>

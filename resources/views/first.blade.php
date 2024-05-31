@@ -9,5 +9,9 @@
 <body>
     <h1>First Test</h1>
     <a href="{{route('named')}}">test</a>
+
+    <h5>{{ $test
+    }}</h5>
+    <h2>{{$lol}}</h2>
 </body>
 </html>

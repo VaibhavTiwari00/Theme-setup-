@@ -6,15 +6,19 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
 
 Route::get('/login', function () {
     return view('login');
 });
 
 Route::get('/test/{id?}/{lol?}', function (string $test = null, string $test2 = null) {
-    // return view('first');
+    return view('first', ['test' => $test, 'lol' => $test2]);
 
-    return "here:" . $test . " " . $test2;
+    // return "here:" . $test . " " . $test2;
 })->whereNumber('id')->whereAlpha('lol');
 
 // one more way to create a route 

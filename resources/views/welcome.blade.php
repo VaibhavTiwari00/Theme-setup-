@@ -52,5 +52,9 @@
          {{-- when false it will include --}}
          {{-- @includeUnless(false,'components.footer' ) --}}
 
+
+         {{-- template inheritance --}}
+         {{-- @extend('layout') --}}
+
     </body>
 </html>
